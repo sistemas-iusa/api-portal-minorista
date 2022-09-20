@@ -2,6 +2,9 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\InfoController;
+use App\Http\Controllers\SignOutController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,6 +17,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
+/* Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
-});
+}); */
+
+// Acceso al Portal Empleados IUSA
+Route::post('/signin', [LoginController::class, '__invoke']);
+Route::get('/info', [InfoController::class, '__invoke']);
+Route::post('/signout', [SignOutController::class, '__invoke']);
