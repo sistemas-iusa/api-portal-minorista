@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="71.642" height="71.642" viewBox="0 0 71.642 71.642">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.854" y1="0.146" x2="0.146" y2="0.854" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#60fc7c"/>
+      <stop offset="1" stop-color="#4ab161"/>
+    </linearGradient>
+    <filter id="Elipse_7" x="0" y="0" width="71.642" height="71.642" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="icon-whatsapp" transform="translate(13.5 10.5)">
+    <g transform="matrix(1, 0, 0, 1, -13.5, -10.5)" filter="url(#Elipse_7)">
+      <circle id="Elipse_7-2" data-name="Elipse 7" cx="17.084" cy="17.084" r="17.084" transform="translate(13.5 23.58) rotate(-22.5)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="Trazado_625" data-name="Trazado 625" d="M30.258,88.594l1.425-5.315A9.838,9.838,0,1,1,35.6,87.161Zm5.607-3.423.336.2a7.983,7.983,0,1,0-2.732-2.708l.207.339-.8,2.968Z" transform="translate(-17.167 -56.605)" fill="#fff"/>
+    <path id="Trazado_626" data-name="Trazado 626" d="M42.109,78.075a1.646,1.646,0,0,0-1.4-.317c-.365.149-.6.721-.834,1.012a.351.351,0,0,1-.454.1,6.373,6.373,0,0,1-3.176-2.721.388.388,0,0,1,.05-.531,2.162,2.162,0,0,0,.577-.938,2.034,2.034,0,0,0-.259-1.108,2.621,2.621,0,0,0-.817-1.234,1.123,1.123,0,0,0-1.219.181,2.473,2.473,0,0,0-.857,1.959,2.756,2.756,0,0,0,.078.623,5.1,5.1,0,0,0,.6,1.374,10.451,10.451,0,0,0,.623.947,9.6,9.6,0,0,0,2.7,2.507,8.051,8.051,0,0,0,1.683.8,3.731,3.731,0,0,0,1.96.311,2.374,2.374,0,0,0,1.778-1.323,1.134,1.134,0,0,0,.082-.674C43.115,78.576,42.485,78.3,42.109,78.075Z" transform="translate(-15.362 -54.777)" fill="#fff" fill-rule="evenodd"/>
+  </g>
+</svg>

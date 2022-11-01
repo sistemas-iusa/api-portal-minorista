@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="61.71" height="61.71" viewBox="0 0 61.71 61.71">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.854" y1="0.146" x2="0.146" y2="0.854" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3cf"/>
+      <stop offset="1" stop-color="#00bef9"/>
+    </linearGradient>
+    <filter id="Elipse_8" x="0" y="0" width="61.71" height="61.71" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="icon-mail" transform="translate(13.5 10.5)">
+    <g transform="matrix(1, 0, 0, 1, -13.5, -10.5)" filter="url(#Elipse_8)">
+      <circle id="Elipse_8-2" data-name="Elipse 8" cx="17.355" cy="17.355" r="17.355" transform="translate(13.5 10.5)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="envelope" d="M0,4.752A2.752,2.752,0,0,1,2.752,2H19.266a2.752,2.752,0,0,1,2.752,2.752V15.762a2.752,2.752,0,0,1-2.752,2.752H2.752A2.752,2.752,0,0,1,0,15.762ZM2.752,3.376A1.376,1.376,0,0,0,1.376,4.752v.3l9.633,5.78,9.633-5.78v-.3a1.376,1.376,0,0,0-1.376-1.376Zm17.89,3.279-6.479,3.888,6.479,3.987ZM20.6,16.118l-7.762-4.777-1.825,1.094L9.185,11.341,1.423,16.117a1.376,1.376,0,0,0,1.329,1.021H19.266a1.376,1.376,0,0,0,1.329-1.02ZM1.376,14.53l6.479-3.987L1.376,6.656Z" transform="translate(6.346 7.425)" fill="#fff"/>
+  </g>
+</svg>

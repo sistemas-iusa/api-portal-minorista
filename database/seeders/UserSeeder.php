@@ -16,9 +16,9 @@ class UserSeeder extends Seeder
     {
         //
         DB::table('users')->insert([
-            'name' => 'MARCO LOPEZ VELDAÑEZ',
-            'email' => 'marco@iusa.com.mx',
-            'password' => bcrypt('password'),
+            'name' => 'Omar Martinez Molina',
+            'email' => 'omartinez@iusa.com.mx',
+            'password' => bcrypt('password01'),
         ]);
     }
 }
